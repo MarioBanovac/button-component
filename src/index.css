@@ -123,6 +123,55 @@ body {
   box-sizing: border-box;
 }
 
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  margin: 20px;
+  border-radius: 8px;
+  gap: 10px;
+}
+
+.btn--primary {
+  color: var(--text-primary-invert);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1), 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+.btn--secondary {
+  color: var(--text-secondary);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1), 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+
+.btn--normal {
+  font-size: var(--font-base);
+  line-height: var(--line-height-base);
+  padding: 8px 16px;
+}
+
+.btn--large {
+  font-size: var(--font-lg);
+  line-height: var(--line-height-lg);
+  padding: 12px 20px;
+}
+
+.btn--xl {
+  font-size: var(--font-xl);
+  line-height: var(--line-height-xl);
+  padding: 16px 24px; 
+}
+
+.btn--2xl {
+  font-size: var(--font-2xl);
+  line-height: var(--line-height-2xl);
+  padding: 20px 32px;
+}
+
 .credits {
   color: #777;
   position: fixed;
